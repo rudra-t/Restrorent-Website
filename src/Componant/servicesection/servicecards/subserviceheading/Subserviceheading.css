@@ -1,0 +1,10 @@
+div h2{
+    color: var(--Main-Color);
+    margin: 20px 0;
+    font-size: 1.5rem;
+}
+div p{
+    color: var(--Main-Color);
+    font-size: .9rem;
+    line-height: 25px;
+}

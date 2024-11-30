@@ -1,0 +1,12 @@
+.sub-dish {
+  width: 250px;
+  background-color: var(--Background-Color);
+  height: 230px;
+  text-align: left;
+  padding: 0 15px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  box-shadow: 12px 12px 45px rgba(191, 190, 190, 0.99);
+}

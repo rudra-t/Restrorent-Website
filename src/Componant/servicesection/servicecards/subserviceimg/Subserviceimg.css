@@ -1,0 +1,15 @@
+.sub-service-img{
+  width: 35%;
+  height: 35%;
+  border-radius: 20px;
+  background-color: var(--Background-Color);
+  margin-bottom: 20px;
+}
+.sub-service-img img{
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  padding: .5rem;
+}

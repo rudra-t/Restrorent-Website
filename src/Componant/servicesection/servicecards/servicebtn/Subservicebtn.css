@@ -1,0 +1,13 @@
+.sub-service-button a{
+    padding: 8px 14px;
+    border-radius: 40px;
+    border: 1px solid var(--Main-Color);
+    background-color: var(--Main-Color);
+    color: var(--Background-Color);
+    cursor: pointer;
+    text-decoration: none;
+  }
+  button:hover{
+    background-color: var(--Background-Color);
+    color: var(--Main-Color);
+  }

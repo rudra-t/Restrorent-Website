@@ -1,0 +1,18 @@
+.sub-dish-detail{
+  max-width: 100%;
+}
+.sub-dish-detail h3{
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  color: var(--Text-Color);
+}
+.sub-dish-detail p{
+  color: var(--Second-Text-Color);
+  font-size: .9rem;
+}
+.sub-dish-button{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}

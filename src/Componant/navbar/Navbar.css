@@ -1,0 +1,58 @@
+#Nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 10vh;
+}
+.Nav-links {
+  display: flex;
+  align-items: center;
+  height: 6vh;
+  background-color: var(--Background-Color);
+  border-radius: 10px;
+}
+.Nav-links a {
+  margin: 0 20px;
+  color: var(--Text-Color);
+  text-decoration: none;
+  padding: 5px 10px;
+  color: var(--Main-Color);
+  border-radius: 10px;
+}
+.Nav-links a:hover {
+  color: var(--Second-Background-Color);
+  background-color: var(--Main-Color);
+}
+.cart {
+  display: flex;
+  align-items: center;
+}
+.cart i {
+  font-size: 18px;
+  margin-right: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  color: var(--Main-Color);
+  background-color: var(--Background-Color);
+}
+.cart i:hover {
+  color: var(--Second-Background-Color);
+  background-color: var(--Main-Color);
+}
+.login-button {
+  text-decoration: none;
+  padding: 8px 14px;
+  border-radius: 10px;
+  background-color: var(--Main-Color);
+  color: var(--Second-Background-Color);
+  border: 1px solid var(--Main-Color);
+}
+.login-button:hover {
+  background-color: var(--Second-Background-Color);
+  color: var(--Main-Color);
+}
+@media screen and (max-width: 768px) {
+  .Nav-links {
+    display: none;
+  }
+}

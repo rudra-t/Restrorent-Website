@@ -1,0 +1,15 @@
+.footer-3 p{
+  margin: 10px 0;
+}
+.footer-3 a{
+  font-weight: 600;
+  color: var(--Second-Text-Color);
+  margin: 15px 0;
+}
+.footer-3 a:hover{
+  color: var(--Main-Color);
+}
+.footer-3 img{
+  width: 100px;
+  height: 40px;
+}

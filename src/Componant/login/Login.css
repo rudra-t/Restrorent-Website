@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.container {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-box {
+  width: 100%;
+  min-width: 250px;
+  max-width: 350px;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: var(--Second-Background-Color);
+}
+.form-box h1 {
+  color: var(--Main-Color);
+  text-align: center;
+}
+#underline {
+  width: 15%;
+  height: 4px;
+  margin: 10px auto;
+  background-color: var(--Main-Color);
+  border-radius: 10px;
+  transition: transform 0.5s;
+}
+.input-group {
+  margin: 50px 0;
+}
+.input-field {
+  background-color: var(--Background-Color);
+  margin: 15px 0;
+  border-radius: 10px;
+  max-height: 50px;
+  transition: max-height 0.5s;
+  overflow: hidden;
+}
+.input-field input {
+  padding: 16px 8px;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  border-radius: 5px;
+}
+.input-field i {
+  margin: 0 10px;
+}
+input::placeholder {
+  color: var(--Main-Color);
+  font-size: 100%;
+}
+.fgtpas {
+  color: var(--Main-Color);
+  font-size: 16px;
+}
+.btns {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+button {
+  flex-basis: 40%;
+  font-size: 100%;
+  border: 0;
+  border-radius: 20px;
+  outline: 0;
+  padding: 8px 14px;
+  border: 1px solid var(--Main-Color);
+  cursor: pointer;
+  text-decoration: none;
+}
+.disable {
+  background-color: var(--Main-Color);
+  color: var(--Background-Color);
+  transition: transform 0.5s;
+}

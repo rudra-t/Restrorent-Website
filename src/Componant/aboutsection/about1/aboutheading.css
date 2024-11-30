@@ -1,0 +1,58 @@
+
+.About-1 h1{
+    font-size: 4rem;
+    font-weight: 800;
+    color: var(--Main-Color);
+    text-transform: capitalize;
+}
+.about-para{
+    margin: 30px 0;
+    color: var(--Text-Color);
+    max-width: 100%;
+    line-height: 30px;
+}
+.about-button{
+    background-color: var(--Main-Color);
+    color: var(--Background-Color);
+    padding: 8px 14px;
+    border-radius: 10px;
+}
+@media screen and (max-width: 1110px){
+    .about-heading{
+        font-size: 3.5rem;
+    }
+    .about-para{
+        font-size: .8rem;
+    }
+}
+@media screen and (max-width: 992px){
+    .About-1 h1{
+        font-size: 3rem;
+    }
+    .about-para{
+        font-size: .8rem;
+    }
+}
+@media screen and (max-width: 768px){
+    #About{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .About-1{
+        text-align: center;
+    }
+    .About-1 h1{
+        font-size: 3.3rem;
+    }
+    .about-para{
+        font-size: 1rem;
+    }
+
+}
+@media screen and (max-width: 480px){
+    .About-1 h1{
+        font-size: 2.3rem;
+    }
+    .about-para{
+        font-size: 1rem;
+    }
+}

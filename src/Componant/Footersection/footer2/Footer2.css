@@ -1,0 +1,62 @@
+
+.social-links {
+  width: 50%;
+  background-color: var(--Main-Color);
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 10px;
+  padding: 8px;
+  height: 50%;
+}
+.social-links i {
+  transition: 0.4s;
+}
+.social-links a {
+  color: var(--Background-Color);
+  font-size: 1.5rem;
+}
+.footer-2 i:hover {
+  transform: scale(1.5);
+}
+.social-links .fa-instagram:hover {
+  animation: bounce_613 0.4s linear;
+}
+
+.social-links .fa-github:hover {
+  animation: bounce_613 0.4s linear;
+}
+
+.social-links .fa-facebook:hover {
+  animation: bounce_613 0.4s linear;
+}
+
+.social-links .fa-linkedin:hover {
+  animation: bounce_613 0.4s linear;
+}
+
+.social-links .fa-google:hover {
+  animation: bounce_613 0.4s linear;
+}
+
+@keyframes bounce_613 {
+  40% {
+    transform: scale(1.4);
+  }
+
+  60% {
+    transform: scale(0.8);
+  }
+
+  80% {
+    transform: scale(1.2);
+  }
+}
+.footer-links{
+  display: flex;
+  flex-direction: column;
+}
+.footer-links a {
+  color: var(--Second-Text-Color);
+  border-radius: 10px;
+  margin: 8px 0;
+}

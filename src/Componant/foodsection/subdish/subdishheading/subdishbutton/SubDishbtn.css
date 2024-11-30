@@ -1,0 +1,16 @@
+.sub-dish-button a{
+  border-radius: 40px;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: var(--Second-Background-Color);
+  padding: 10px;
+  color: var(--Main-Color);
+}
+.sub-dish-button a:hover{
+  background-color: var(--Main-Color);
+  color: var(--Background-Color);
+}
+.rating i{
+  font-size: 20px;
+  color: var(--Main-Color);
+}

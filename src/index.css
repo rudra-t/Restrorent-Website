@@ -1,13 +1,40 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Lilita One", sans-serif;
+  background-color: var(--Second-Background-Color);
+  font-family: "Nunito", sans-serif;
+}
+:root{
+  --Background-Color:#fff;
+  --Second-Background-Color:#e8e8e8;
+  --Main-Color:#002333;
+  --Text-Color:#000000;
+  --Second-Text-Color:#858282;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/*:root{
+  --Background-Color:#fff;
+  --Second-Background-Color:#E9E0F7;
+  --Main-Color:#AA82ED;
+  --Text-Color:#000000;
+  --Second-Text-Color:#fff5;
+
+  background-image: 
+        linear-gradient( 
+            to bottom right, #EFD7F4, #c5c7f1);
+}*/
+
+.Container{
+  width: 90%;
+  margin: 0 auto;
+}
+h2{
+  font-size: 2rem;
+}
+p{
+  font-size: 1rem;
 }

@@ -1,0 +1,43 @@
+#Footer{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.Quete{
+    border-radius: 20px;
+    text-align: center;
+    color: var(--Main-Color);
+}
+.Quete h2{
+    color: var(--Main-Color);
+    font-weight: 800;
+    font-size: 3rem;
+}
+.Footer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 3rem;
+    row-gap: 1.5rem;
+    background-color: var(--Background-Color);
+    border-radius: 20px;
+    align-items: center;
+    padding: 25px;
+}
+.Credit{
+    background-color: var(--Main-Color);
+    color: var(--Background-Color);
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px;
+}
+.Credit p{
+    color: var(--Background-Color);
+}
+@media screen and (max-width: 768px) {
+    .Footer{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

@@ -1,0 +1,14 @@
+#Service{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 90vh;
+    text-align: center;
+    background-color: var(--Main-Color);
+}
+.Service-section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+}

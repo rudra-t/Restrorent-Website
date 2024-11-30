@@ -1,0 +1,59 @@
+.Food-Menu-container {
+  padding: 2rem 3rem;
+  min-height: 100vh;
+  background-color: var(--Second-Background-Color);
+  text-align: center;
+}
+
+.Food-Menu-heading h1 {
+  font-size: 2rem;
+  color: var(--Main-Color);
+  font-weight: 800;
+}
+
+.Food-Menu-heading h2 {
+  font-size: 1.3rem;
+  color: var(--Main-Color);
+  margin: 10px 0;
+  max-width: 100%;
+}
+
+.Food-Menu-heading p {
+  font-size: 1rem;
+  color: var(--Main-Color);
+  max-width: 100%;
+}
+
+.filterable-button {
+  margin: 30px 0 90px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.filterable-button button {
+  flex-basis: 150px;
+}
+
+.active {
+  background-color: var(--Main-Color);
+  color: var(--Second-Background-Color);
+}
+
+.dishes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 6rem;
+}
+
+@media screen and (max-width: 1107px) {
+  .dishes {
+    margin: 5rem 0 3rem;
+  }
+}
+@media screen and (max-width: 480px) {
+}

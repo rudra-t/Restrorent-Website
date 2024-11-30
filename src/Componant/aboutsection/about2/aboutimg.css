@@ -1,0 +1,15 @@
+.About-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.About-2 img{
+    width: 93%;
+    height: 93%;
+}
+@media screen and (max-width: 480px){
+    .About-2 img{
+    width: 100%;
+    height: 100%;
+}
+}
